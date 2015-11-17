@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;
+	line-height: 18px;
+}
+body,a {
+	color: #333;
+}
+p {
+	padding-bottom: 10px;
+}
+#wrapper {
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+}
+#comments,.comment {
+	width: 100%;
+	float: left;
+}
+.name {
+	font-size: 11px;
+	color: #999;
+	font-style: italic;
+	display: block;
+	padding-bottom: 7px;
+}
+.comment {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: dashed 1px #aaa;
+}
+.comment p {
+	padding: 0;
+}
+.button {
+	display: block;
+	float: left;
+	line-height: 1em;
+	padding: 3px 7px 2px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: url(/images/button.png) repeat-x 0 0 #f04dc6;
+	border: solid 1px #ac1274;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.buttonGreen {
+	background: url(/images/button.png) repeat-x 0 -30px #97d01d;
+	border: solid 1px #67940b;
+}
+.button:hover {
+	background-image: none;
+}
+.flr {
+	float: right;
+}
+.commentContent,.confirm {	
+	width: 380px;
+	float: left;
+}
+.commentContent {
+	padding: 5px 10px;
+}
+.confirm {
+	display: none;
+	background: #eee;
+	padding: 7px 10px;
+}
+.confirm span {
+	display: block;
+	float: left;
+	padding:2px 0 0 0;
+}
+.mrr4 {
+	margin-right: 4px;
+}
